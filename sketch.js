@@ -76,20 +76,20 @@ function draw() {
   computerArcher.display()
 
  // Descomente o bloco de código e use o loop for correto para exibir a flecha usando a função showArrow()
-//  for (var i=0; i<playerArrows.length; i++) 
-//  {
-//  showArrows(i, playerArrows);
-//  }
+  for (var i=0; i<playerArrows.length; i++) 
+  {
+  showArrows(i, playerArrows);
+  }
 
  // for (var i=0; i<playerArrows; i++) 
  //{
  // showArrows(i, playerArrows);
  // }
 
-  for (var i=0; i<playerArrows.length; i++) 
-  {
-  showArrows(playerArrows, i);
-  }
+  //for (var i=0; i<playerArrows.length; i++) 
+  //
+  //owArrows(playerArrows, i);
+  //
 
 
 
